@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* common css start*/
+    .container{
+      max-width: 1240px;
+      margin: 0% auto;
+    }
+/* common css start*/
+
+
+ /*navbar */
+
+.navbar{
+  max-width: 93%;
+  margin: 0% auto;
+  display:flex;
+  gap: 60px;
+  padding: 20px 40px;
+  color: #0b0736;
+
+  & h3{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  & div{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    border-radius: 5px;
+  }
+}
+
+  /*banner*/
+
+.banner-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50dvw;
+    z-index: -155;
+}
+
+
+.banner-section{
+   padding: 120px 0;
+   margin-left: 35px;
+   margin-left: 150px;
+     
+    & h1{
+      font-size: 90px;
+      font-weight: 600;
+      color: #0b0736;
+    }
+
+    & div{
+      padding: 20px 0;
+      display: flex;
+      gap: 4px;
+      color: #0b0736;
+      justify-items: center;
+      align-items: center;
+      font-size: 20px;
+    }
+}
+
+button{
+  color: white;
+  background-color: #0b0736;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+  /*Target section */
+.target-section{
+    padding: 140px 0;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2 , minmax(0,1fr));
+    align-items: center;
+    
+     & img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+     }
+
+    
+     
+.details-section{
+           & h2{
+             font-size: 68px;
+             font-weight: 550;
+            }
+          .details{
+            padding: 40px 0;
+            color: gray;
+            font-size: 24px;
+            font-weight: 400;
+
+         }
+
+         .store-design{
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          padding: 16px 28px;
+          background-color: #cce8fd;
+          border-radius: 20px;
+          width: fit-content;
+
+         }
+        
+          
+
+         & p{
+          color: #9393c4;
+          font-size: 12px;
+         }
+
+        & h3{
+          font-size: 18px;
+          font-weight: 600;
+        }
+       & img{
+         width: 25px;
+       }  
+      }
+  }
