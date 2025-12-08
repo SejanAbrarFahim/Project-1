@@ -298,12 +298,15 @@ button{
       padding: 0 16px;
     }
 
-    .between{
-    
+    .between{   
     gap: 3rem;
     grid-template-columns: repeat(1, minmax(0,1fr));
     }
+   
+    .navbar{
+      gap: 10px;
 
+    }
     .banner-section{
       padding: 60px 16px;
       position: relative;
